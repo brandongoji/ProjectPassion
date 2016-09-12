@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+<center>
+    <header>
+        <div id="nav">
+        	<h3>Project Passion</h3>
+        	<ul>
+        		<li><a href="#">Home</a></li>
+        		<li><a href="blog.php">Blog</a></li>
+        		<li><a href="pictures.html">Pictures</a></li>
+        		<li><a href="contact.html">contact</a></li>
+        	</ul>
+        </div>
+    </header>
+    
+    <div id="slider">
+	
+
+    </div>
+    
+    <div id="content">
+       <div id="join">
+       <form action="#" method="POST"><br>
+       <input type="text" name="username" placeholder="username"><br><br>
+       <input type="email" name="email" placeholder="email"><br><br>
+       <input type="password" name="password" placeholder="password"><br><br>
+       <input type="submit" name="submit" value="SignUp">    
+       </form>
+       </div>
+       <div id="happy">
+       </div>
+       <div id="login">
+       <form action="#" method="POST"><br>
+       <input type="text" name="username" placeholder="username"><br><br>
+       <input type="password" name="password" placeholder="password"><br><br>
+       <input type="submit" name="submit" value="LogIn">  
+       </div>
+    </div>
