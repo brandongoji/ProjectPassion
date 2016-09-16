@@ -45,7 +45,6 @@ margin-top: 35px;
 
 #left{
 width: 200px;
-height: 900px;
 border: 2px solid #ff6600;
 float: left;
 background-color: #211d1d;
@@ -76,7 +75,6 @@ color: white;
 
 #right{
 width: 1000px;
-height: 200px;
 border: 2px solid #ff6600;
 float: right;
 background-color: white;
@@ -84,10 +82,37 @@ background-color: white;
 
 
 
+#goal{
+width: 456px;
+height: 38px;
+border-radius: 35px;
+color: black;
+font-size: 30px;
+text-align: justify;
+margin-left: 128px;
+margin-top: 5px;
+background-color: gainsboro;
+}
 
+#makegoal{
+float: left;
+margin-inline-start: 100px;
+margin-top: 40px;
+}
 
-
-
+#namegoal{
+width: 350px;
+height: 38px;
+float: right;
+border: 1px solid green;
+border-radius: 35px;
+background-color: green;
+color: white;
+font-size: 28px;
+text-align: left;
+margin: -1px;
+padding-left: 10px;
+}
 
 
 
