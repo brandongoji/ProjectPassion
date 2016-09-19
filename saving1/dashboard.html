@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+
+</head>
+<body>
+<center>
+    <header>
+        <div id="nav">
+        	<ul>
+        		<li><a href="#">Home</a></li>
+        		<li><a href="#">Dashboard</a></li>
+        		<li><a href="#">Forum</a></li>
+        	</ul>
+        </div>
+    </header>
+    <div id="content">
+        <div id="left">
+       <ul>
+         <li><a href="#">Goals</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>
+         <li><a href="#">Groups</a></li>         
+       </ul>
+        </div>
+
+        <div id="right">
+            <p class="budget">What is your budget?</p>
+              <label for="range">
+              <input type="range" name="range" id="range" min="0" max="300" step="5" value="175"/>
+              </label>
+              <output for="range" class="output"></output>
+              <script type="text/javascript">
+    
+               $('#range').on("change", function() {
+               $('.output').val(this.value +",000  $" );
+               }).trigger("change");        
+                </script>
+        </div>
+
+
+    </div>
+
+</center>
+</body>
+</html>

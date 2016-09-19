@@ -1,0 +1,196 @@
+body{
+background-color: #1d0903;
+}
+
+header{
+width:1000px;
+height:40px;
+color:white;
+border: 2px solid #ff6600;
+}
+
+h3{
+float: left;
+margin-top:6px;
+}
+
+#nav{
+width:1000px;
+height:40px;
+}
+
+#nav ul{
+float: right;
+margin-top:7px;
+
+}
+
+#nav ul li{
+float: left;
+list-style: none;
+text-decoration: none;
+padding-right: 45px;
+}
+
+#nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+#slider{
+width:1000px;
+height:400px;
+margin-top:35px;
+border: 2px solid;
+}
+
+#content{
+margin-top:35px;
+width: 1000px;
+height: 250px;
+}
+
+#join{
+width:300px;
+height: 245px;
+border: 2px solid white;
+float: left;
+background-color: white;
+}
+
+h2{
+width: auto;
+height: 29px;
+background-color: red;
+margin-top: 0px;
+}
+
+form{
+float: left;
+}
+
+#happy{
+width: 310px;
+height: 245px;
+border: 2px solid white;
+float: left;
+background: url(images/funny.jpg) 77px 50px;
+background-repeat: no-repeat;
+margin-left: 38px;
+background-color: white;
+}
+
+h4{
+width: auto;
+height:40px;
+margin-top:-20px;
+text-align:left; 
+}
+
+#pic1{
+width:53px;
+height: 33px;
+background-color: green;
+float: left;
+margin-left: 90px;
+margin-top: 90px;
+}
+
+#pic1 a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#pic2{
+width:53px;
+height: 33px;
+background-color: red;
+margin-top: 90px;
+float: right;
+margin-right: 90px;
+}
+
+#pic2 a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#login{
+width:300px;
+height: 245px;
+border: 2px solid white;
+float: left;
+background-color: white;
+margin-left: 38px;
+}
+
+input[type="text"]{
+width: 295px;
+border: 0px;
+height: 29px;
+font-size:17px;
+border-bottom:1px solid #ff6600;
+}
+
+input[type="password"]{
+width: 295px;
+border: 0px;
+height: 29px;
+font-size:17px;
+border-bottom:1px solid #ff6600;
+}
+
+input[type="email"]{
+width: 295px;
+border: 0px;
+height: 29px;
+font-size:17px;
+border-bottom:1px solid #ff6600;
+}
+
+input[type="submit"]{
+width: 300px;
+background-color: red;
+border:0px;
+height:29px;
+font-weight: bold;
+}
+
+footer{
+width: 1000px;
+height:100px;
+border: 2px solid yellow;
+margin-top: 35px;
+}
+
+footer p{
+color: white;
+font-size: 20px;
+padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
