@@ -1,0 +1,395 @@
+body{
+      background-color: #BDBDBD;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.wrapper{
+margin:0px auto;
+padding:0px 5px;
+width:1250px; 
+}
+
+#fond-header{
+      height: 160px;
+    background: url(images/12.png);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 600px;
+    background-color: #15a4d3;
+    background-attachment: fixed;
+}
+#header-box{
+margin-top: 20px;
+width: 100%;
+height: 95px;
+padding-top: 1px;
+display: block;
+}
+
+/*header code */
+
+
+header{
+height: 151px;
+margin-top: 0px;
+padding-top: 5px;
+}
+
+header h1{
+float: left;
+margin-top:7px;
+color: #388e3c;
+font-size: 60px;
+margin-left:5px;
+}
+
+.info-login{
+margin-top: -19px;
+font-size: 20px;
+background-color:#388e3c;
+width: 400px;
+height: 95px;
+margin-left: 800px;
+}
+
+.head-info-login{
+width:400px;
+height:30px;
+background-color:black;
+}
+
+.head-info-login span{
+font-size:10px;
+color:white;
+}
+
+
+.head-info-login  p{
+font-size:12px;
+color:white;
+float: right;
+margin-top: 7px;
+margin-right: 20px;
+}
+
+.head-info-login  a{
+font-size: 17px;
+color: green;
+text-decoration: none;
+text-transform: none;
+float: left;
+background: white;
+height: 25px;
+width: 115px;
+padding-top: 5px;
+padding-left: 10px;
+margin:0px;
+}
+
+.info-login input[type="email"]{
+width: 130px;
+height: 25px;
+border: none;
+font-weight: normal;
+font-size: 13px;
+margin-top: -56px;
+padding-left: 5px;
+margin-left: -105px;
+}
+
+.info-login input[type="password"]{
+width: 130px;
+height: 25px;
+border: none;
+margin-left: 15px;
+margin-top: -56px;
+padding-left: 5px;
+}
+
+.info-login input[type="submit"]{
+width: 61px;
+height: 25px;
+border: 2px solid #FFFFFF;
+margin-left: 11px;
+margin-top: -56px;
+background: #388e3c;
+color: white;
+font-size: 13px;
+}
+
+nav{
+width: 1200px;
+height: 45px;
+background-color: black;
+margin-left: 19px;
+}
+
+nav ul{
+ width: auto;
+height: 40px;
+background-color: black;
+float: left;
+margin-top: 5px;
+padding-left: 19px;
+}
+
+
+nav ul li{
+list-style: none;
+display: inline-block;
+float: left;
+padding-right: 25px;
+margin-top: 9px;
+}
+
+nav ul li a{
+color:white;
+display:block;
+font-weight:bold;
+text-decoration:none;
+}
+a{
+text-transform:uppercase;
+color:green;
+}
+
+a:hover{
+color:green;
+}
+
+/*heade code ends*/
+h3{
+margin-top: 10px;
+margin-left: 65px;
+font-size: 22px;
+}
+
+/*section code start*/
+
+section{
+background-color:#f5f5f5;
+height:500px;
+width: 1200px;
+margin-left: 20px;
+box-shadow: 0px 15px 13px 1px #7d7d7c;
+}
+
+#welcome{
+float: left;
+background: url(images/home.png) no-repeat;
+width:1160px;
+height: 46px;
+margin-top: 5px;
+margin-left: 20px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+color: black;
+}
+
+#main{
+float:left;
+background:url(images/Hey.png) no-repeat right;
+width:1160px;
+height: 360px;
+margin-top: 25px;
+margin-left: 20px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#main h1{
+font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color:black;
+	font-size: 45px;
+	margin-left: 25px;
+	
+}
+
+#main h5{
+    font-family: 'Crete Round', serif;
+    color: green;
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 25px;
+}
+
+#main p{
+text-align: justify;
+width: 700px;
+font-size: 17px;
+line-height: 22px;
+margin-top: -12px;
+margin-left: 25px;
+color: black;
+}
+
+/*primary code here*/
+#content{
+background-color:#f5f5f5;
+height:710px;
+width: 1200px;
+margin-left: 20px;
+box-shadow: 0px 15px 13px 1px #7d7d7c;
+}
+
+#first{
+    float: left;
+    width: 660px;
+    height: 620px;
+    background-color:#EDEDED;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+form{
+margin-top: 50px;
+margin-left:125px;
+}
+
+textarea{
+width:400px;
+font-size: 20px;
+border: 3px solid rgba(29, 29, 29, 0.41);
+}
+
+input[type="email"]{
+width:400px;
+font-size: 20px;
+height:40px;
+border: 3px solid rgba(29, 29, 29, 0.41);
+}
+
+input[type="text"]{
+width:400px;
+font-size: 20px;
+height:40px;
+border: 3px solid rgba(29, 29, 29, 0.41);
+}
+
+input[type="submit"]{
+width:150px;
+height:50px;
+border: 3px solid rgba(29, 29, 29, 0.41);
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left:110px;
+}
+
+
+
+#app{
+float: right;
+background-color:#EDEDED;
+width: 475px;
+height: 400px;
+margin-top: 10px;
+margin-right: 20px;
+border: 0px solid rgba(0, 0, 0, 0.1);
+}
+
+
+dt {
+	
+	margin:0px 35px;
+	padding:0;
+	vertical-align:top;
+	font-size: 25px;
+    margin-top:5px;
+    color: black;
+}
+
+dd{
+	font-size:12px;
+	margin:15px 78px;
+	padding:2px;
+	vertical-align:top;
+	color:black;
+}
+
+span{
+    color: green;
+    font-size: 15px;
+}
+
+.link{
+	color:black;
+	text-transform: lowercase;
+}
+
+.link:hover{
+	color:green;
+	text-transform: lowercase;
+}
+
+
+/*primery code ends here*/
+
+
+
+
+/*footer code here*/
+footer{
+    height: 150px;
+    background-color:#EDEDED;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+#dock-container {
+            position: absolute;
+            text-align: center;
+            left: 31%;
+            width: 40%;
+            right: 29%;
+            margin-top: 25px;      
+            }
+
+#dock-container li {
+            list-style-type: none;
+            display: inline-block;
+            position: relative;
+        }
+
+ #dock-container li img {
+          width: 70px;
+          height:70px;
+          -webkit-box-reflect: below 4px
+           -webkit-gradient(linear, left top, left bottom, from(transparent),
+           color-stop(0.7, transparent), to(rgba(255,255,255,.5)));
+          -webkit-transition: all 0.3s;
+          -webkit-transform-origin: 50% 100%;
+        }
+
+  #dock-container li:hover img { 
+          -webkit-transform: scale(2);
+          margin: 0 1.7em;
+        }
+        #dock-container li:hover + li img,
+        #dock-container li.prev img {
+          -webkit-transform: scale(1.5);
+          margin: 0 1.5em;
+       }
+
+
+
+ #dock-container li span {
+            display: none;
+            position: absolute;
+
+            bottom: 75px;
+            left: 31px;
+            width: 57%;
+            background-color: rgba(0,0,0,0.75);
+            padding: 4px 0;
+            border-radius: 12px;
+        }
+        #dock-container li:hover span {
+            display: block;
+            color: #fff;
+        }
+
+/*footer code here*/

@@ -1,27 +1,48 @@
 <html>
 <head>
 <title>Save Smart</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="blacktheme.css">
 <body>
-	   
-       <header>
-       	<div class="wrapper">
-          <h1>Save Smart<span class="color">$</span></h1><br>
-           <nav>
-           	 <ul>
+     <div id="fond-header"></div>
+      <div class="wrapper">
+       <header>     
+          <div id="header-box">   
+          <img style="float: left; margin-top: 21px; margin-left: 40px;" src="images/bank.png">
+          <h1>Save Smart</h1><br>          
+          <div class="info-login">
+                         <div class="head-info-login">
+                                <p>Make here your online transactions!</p>
+                                <span>
+                                    <a href="register.html">Register Here</a>
+                                </span>
+                            </div>
+                                  <form>
+                                     <input type="email" name="email" placeholder="email">
+                                     <input type="password" name="password" placeholder="password">
+                                    <input type="submit"  value="Login">
+                                </form>
+                         </div>  
+            </div>                       
+        </header>
+      </div>
+       
+
+       <div class="wrapper">
+          <nav>
+             <ul>
                  <li><a href="index.php">Home</a></li>           
                  <li><a href="feature.html">Features</a></li>
                 <li><a href="story.php">Sories</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About Us</a></li> 
              </ul>
-           </nav>
-        </div>
-       </header>
-  
+          </nav>
+       </div>
+
    <div class="wrapper">
-      <div id="main">
-    
+        <section>
+         <div id="welcome"><h3>Welcome to Smart Save</h3></div>
+      <div id="main">  
         <h1>Contact Us</h1>
         <h5>NAME has the ability to simplify the way the world saves money.</h5>
 
@@ -30,12 +51,13 @@
          Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
         </p>
       </div>
-    </div>  
+      <br>
+   </section>
+   </div>
 
      <div class="wrapper">
-      <div id="primary">
-
-       <div id="left">
+       <div id="content">
+          <div id="first">
          <form method="" action="">
            <input type="text" name="name" placeholder="enter your name"><br><br>
            <input type="email" name="email" placeholder="enter your email"><br><br>
@@ -43,28 +65,28 @@
            <textarea rows="10" cols="16" placeholder="your massage"></textarea><br><br><br>
            <input type="submit" name="submit" value="Submit form"><br><br>
          </form>
-        </div>
+          </div>
 
-        <div id="right">
+        <div id="app">
           <dl>
              <dt><strong>Save Smart </strong></dt>
-             <dd><span>Address1: </span><strong>8901 Marmora Road, Glasgow,89GR</strong></dd>
-             <dd><span>Telephone: </span><strong>+1 959 603 6035</strong></dd>
-             <dd><span>Fax: </span><strong>+1 504 889 9898</strong></dd>
+             <dd><span>Address1: </span>8901 Marmora Road, Glasgow,89GR</dd>
+             <dd><span>Telephone: </span>+1 959 603 6035</dd>
+             <dd><span>Fax: </span>+1 504 889 9898</dd>
              <dd><span>Email: </span><a href="#" class="link">mail@thomsander.com</a></dd>
              
-             <dd><span>Address2: </span><strong>9863 Mill Road, Cambridge, MG09 99HT</strong></dd>
-             <dd><span>Telephone: </span><strong>+1 959 603 6035</strong></dd>
-             <dd><span>Fax: </span><strong>+1 504 889 9898</strong></dd>
+             <dd><span>Address2: </span>9863 Mill Road, Cambridge, MG09 99HT</dd>
+             <dd><span>Telephone: </span>+1 959 603 6035</dd>
+             <dd><span>Fax: </span>+1 504 889 9898</dd>
              <dd><span>Email: </span><a href="#" class="link">mail@thomsander.com</a></dd>
           </dl>
         </div>
 
       </div>
-    </div>   
-  <footer>
+    </div>    
 	 
 <div class="wrapper">
+<footer>
 	<div id="dock-container">
        <div id="dock">
     <ul style="margin-left: -50px">
@@ -87,15 +109,9 @@
     </ul>
       </div>
   </div>
-  
-  <div id="footer-info">
-			<p>Copyright 2016. All rights reserved to Save Smart.</p>
-	</div>
-
-	<div class="clear"></div>
-
-</footer>	
+</footer>
 </div>
+
 </div>
 </body>
 </html>
